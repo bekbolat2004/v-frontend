@@ -23,8 +23,8 @@
                 <h5 class="card-title">{{ product.title }}</h5>
                 <p class="card-text">{{ product.price }}</p>
             </div>
-<div>
-    <h1>Product</h1>
+  <div>
+      <h1>Product</h1>
       <div v-if="isLoaded">
           <p>{{ product.title }}</p>
       </div>

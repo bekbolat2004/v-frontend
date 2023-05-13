@@ -2,12 +2,12 @@
 const categories = [
   {
     id: 1,
-    title: 'Phones',
+    title: 'Laptops',
     img: 'https://images.wallpaperscraft.com/image/single/tunnel_lines_neon_875834_1920x1080.jpg'
   },
   {
     id: 2,
-    title: 'Laptops',
+    title: 'Phones',
     img: 'https://images.wallpaperscraft.com/image/single/buildings_houses_roofs_875974_1920x1080.jpg'
   }
 ]
