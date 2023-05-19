@@ -82,7 +82,7 @@ onMounted(async () => {
         </RouterLink>
         <div class="card-body">
           <h5 class="card-title">{{ product.title }}</h5>
-          <p class="card-text">{{ product.price }}</p>
+          <p class="card-text">{{ product.price }}$</p>
           <button class="btn btn-primary" @click="cartMethods.addToCart(product)">
             Add to cart
           </button>

@@ -29,7 +29,6 @@
         <h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Cart</h1>
         <hr>
         <div style="display:flex; flex-direction:row;" v-for="item in cart" :key="item.id">
-            <br>
             <img style="width: 250px; height: 200px ;" :src="item.image" alt="item.title  " />
             <div style="display" class="inf">
                 <h2>title:<strong>{{ item.title }}</strong></h2>
