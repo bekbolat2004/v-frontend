@@ -18,12 +18,13 @@
 </script>
 
 <template>
-    <div class="container-sm sticky-sm-top" style="width: 17%"><img :src="product.image" class="card-img-top" :alt="product.title"></div>
-            <div class="card-body" style="text-align: center; margin-left:200px; margin-right: 200px; font-family: 'Times New Roman', Times, serif;">
-                <h2 class="card-title">Title:{{product.title }}</h2>
-                <h3 class="card-text">Price:{{ product.price }}$</h3>
-                <h4>Description: {{ product.description }}</h4>
-            </div>
+<div class="container-sm sticky-sm-top" style="width: 17%; position: static; "><img :src="product.image" class="card-img-top" :alt="product.title">
+</div>
+    <div class="card-body" style="text-align: center; margin-left:200px; margin-right: 200px; font-family: 'Times New Roman', Times, serif;">
+        <h2 class="card-title">Title:{{product.title }}</h2>
+        <h3 class="card-text">Price:{{ product.price }}$</h3>
+        <h4>Description: {{ product.description }}</h4>
+    </div>
 <!--
 <div>
       <h1>Product</h1>
