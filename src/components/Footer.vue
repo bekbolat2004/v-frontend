@@ -67,7 +67,7 @@
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg
               ></a>
-              <h1>NEED TO ADD ICONS</h1>
+              <h1 style="font-family: 'Times New Roman', Times, serif;">Online store of devices</h1>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#"

@@ -73,7 +73,7 @@ onMounted(async () => {
     <div v-if="isLoaded" class="row row-cols-4 g-2">
       <div
         class="card card-hover py-5 text-center container"
-        style="width: 23%"
+        style="width: 20%"
         v-for="product in products"
         :key="product.id"
       >
@@ -110,5 +110,4 @@ onMounted(async () => {
 .card-hover:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
-
 </style>
