@@ -37,7 +37,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h1>Products</h1>
+  <h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Products</h1>
+  <hr>
   <div class="container">
     <div class="dropdown d-flex justify-content-end my-2">
       <a
@@ -72,12 +73,12 @@ onMounted(async () => {
     <div v-if="isLoaded" class="row row-cols-4 g-2">
       <div
         class="card card-hover py-5 text-center container"
-        style="width: 17%"
+        style="width: 23%"
         v-for="product in products"
         :key="product.id"
       >
         <RouterLink :to="'products/' + product.id">
-          <img :src="product.image" class="card-img-top" :alt="product.title" />
+          <img :src="product.image" class="card-img-top" :alt="product.title"  style="height:200px;"/>
         </RouterLink>
         <div class="card-body">
           <h5 class="card-title">{{ product.title }}</h5>
@@ -109,4 +110,5 @@ onMounted(async () => {
 .card-hover:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
+
 </style>
